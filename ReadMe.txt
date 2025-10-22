@@ -2,7 +2,7 @@
 
 This project tracks a human face using a webcam and moves two servo motors (pan and tilt) connected to an Arduino to follow the face in real-time.
 
-## 🧰 What You Need
+## What You Need
 
 ### Hardware:
 - Arduino Uno, Nano, or ESP32
@@ -24,13 +24,14 @@ This project tracks a human face using a webcam and moves two servo motors (pan 
 
 ## 🛠 Installation
 
-### 🔌 Arduino Setup
+### Arduino Setup
 1. Open `servo_control.ino` in the Arduino IDE
 2. Upload it to your board
 3. Close the Serial Monitor after uploading
 
-### 🐍 Python Setup
+### Python Setup
 Make sure Python is installed. Then install the required libraries:
 
 ```bash
 pip install opencv-python pyserial numpy
+
